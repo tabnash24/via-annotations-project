@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "cat1.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 2,
+      "file_name": "cat2.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 3,
+      "file_name": "dog1.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 4,
+      "file_name": "dog2.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        61,
+        91,
+        373,
+        565
+      ],
+      "area": 210745,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        138,
+        1,
+        184,
+        223
+      ],
+      "area": 41032,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "cat"
+    },
+    {
+      "id": 1,
+      "name": "dog"
+    }
+  ]
+}
